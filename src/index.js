@@ -6,7 +6,7 @@ var express = require('express');
  // App
  var app = express();
  app.get('/', function (req, res) {
-   res.send('Hello world\n');
+   res.send('Hello world\ntesting\n');
    });
 
    app.listen(PORT);
